@@ -19,6 +19,9 @@ inputs:
   target-branch:
     description: '[Optional] set target branch name for the destination repository'
     required: false
+  token:
+    description: 'gitHub token'
+    required: true
 runs:
   using: 'docker'
   image: 'Dockerfile'
