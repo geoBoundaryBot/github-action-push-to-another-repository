@@ -32,6 +32,7 @@ runs:
     - ${{ inputs.user-email }}
     - ${{ inputs.destination-repository-username }}
     - ${{ inputs.target-branch }}
+    - ${{ inputs.token }}
 branding:
   icon: 'git-commit'
   color: 'green'
